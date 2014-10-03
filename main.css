@@ -1,28 +1,76 @@
-.menubar {
+
+
+html {
+	box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	background: #000;
+}
+
+.header, footer {
 	height: 100px;
+	background: #000;
 	width: 100%;
-	background: #4D604D;
 
 }
-
-.inventory {
-	height: 75px;
-	width:50%;
-	margin: auto;
-	background: #4F1818;
-
+.maincontainer {
+	background: url("images/curtains.bmp");
+	background-repeat: repeat-x;
+	width: 1240px;
+	height: 710px;
+	margin:auto;
+	
 }
 
-.inventorytab {
-	height: 25px;
-	width:50%;
-	margin: auto;
-	background: #4F1818;
-	border-bottom-left-radius: 7px;
-	border-bottom-right-radius: 7px;
+.leftbar{
+	height:710px;
+	width: 300px;
+	display:inline-block;
+	vertical-align: top
+	
+}
+.gameholder {
+	/*vertical-align: top*/
+	height:710px;
+	width: 640px;
+	display: inline-block;
+}
+.gamescreen{
+	width: 640px;
+	height: 480px;
+	background: #000;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-73.5%);
 }
 
-#toggleinventory {
-	color: #808080;
-	display:inherit;
+.title {
+	font-family: 'Amatic SC', cursive;
+	color:#808080;
+	margin: 0px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-73.5%);
+  	text-align: center;
+}
+
+.gamescreen img {
+	display:none;
+}
+.gametext {
+	background:#000;
+	margin: 20px;
+	border-radius: 5px;
+	height: 60px;
+	color:#808080;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 10px;
+
 }

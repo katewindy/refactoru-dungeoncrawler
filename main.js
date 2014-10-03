@@ -1,5 +1,11 @@
 $(document).on('ready', function() {
   
+  $(document).on('click', '.title', function(){
+  	$('.title').hide();
+  	$('.bedroom').show();
+  	var temptext = $('<p>').text('Madotsuko is going to bed.');
+  	$('.gametext').append(temptext);
+  });
 });
 
 var World = function (player, rooms, items, monsters){
@@ -13,9 +19,7 @@ var World = function (player, rooms, items, monsters){
 
 // Player Constructor
 var Player = function(name, age, gender){
-	this.name = name;
-	this.age = age;
-	this.gender = gender;
+	this.name = 'Madotsuko';
 	this.health = 100;
 	// this.armor = 10;
 	this.strength = 10;

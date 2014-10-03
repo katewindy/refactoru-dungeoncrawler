@@ -1,14 +1,13 @@
 Phase I:
   ✔ Create base Item Class @done (14-10-02 16:24)
   ✔ Create base Player Class @done (14-10-02 13:50)
-  ☐ Create base Monstar Class
+  ✔ Create base Monstar Class @done (14-10-02 17:05)
   ✔ Create base Room Class @done (14-10-02 13:50)
  Phase II:
    ☐ Create individual Item classes
      ☐ Consumables
        ☐ Potion
        ☐ Ether
-       ☐ Ankh - when held, gives back 50% of life upon being killed
      ☐ Weapons
         ☐ Physical
            ☐ Crowbar
@@ -25,11 +24,12 @@ Phase I:
           ☐ Mi-go
           ☐ Byakhee
           ☐ Shoggoth
+          ☐ Hello Cthulhu
           ☐ Cthulhu
- ☐ Create Room Types
-     ☐ Treasure Room
-     ☐ Monster Room
-     ☐ Empty Room
+ ✔ Create Room Types @done (14-10-02 17:13)
+     ✔ Treasure Room @done (14-10-02 17:13)
+     ✔ Monster Room @done (14-10-02 17:13)
+     ✔ Empty Room @done (14-10-02 17:13)
 Later Phases:
      ☐ Add additional Items
        ☐ Weapons
@@ -45,3 +45,4 @@ Later Phases:
          ☐ more to come
     ☐ Create additional Enemies
     ☐ Add traps?
+    ☐ Ankh - when held, gives back 50% of life upon being killed
